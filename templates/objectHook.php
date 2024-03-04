@@ -1,0 +1,1 @@
+$this->dispatchEvent(self::EVENT_<?php echo $event; ?>);

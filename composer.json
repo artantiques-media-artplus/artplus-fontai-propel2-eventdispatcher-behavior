@@ -1,0 +1,21 @@
+{
+    "name": "fontai/propel2-eventdispatcher-behavior",
+    "version": "1.0",
+    "description": "Fontai Propel2 EventDispatcher Behavior",
+    "type": "propel-behavior",
+    "extra": {
+        "name": "event_dispatcher",
+        "class": "Fontai\\Propel\\Behavior\\EventDispatcher\\EventDispatcherBehavior"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "propel/propel": "dev-master"
+    },
+    "autoload": {
+        "psr-4": { "Fontai\\Propel\\Behavior\\EventDispatcher\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
